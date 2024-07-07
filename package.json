@@ -1,12 +1,16 @@
 {
 	"name": "github-actions-2fc09",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"test": "",
-		"build": "node index.js"
+		"build": "node index.js",
+		"release": "pnpm run build && changeset publish"
 	},
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"@changesets/cli": "^2.27.7"
+	}
 }
