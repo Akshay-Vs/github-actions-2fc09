@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "jest",
 		"build": "rollup -c",
-		"release": "pnpm run build && changeset publish"
+		"release": "pnpm run build && changeset publish",
+		"start": "node index.js"
 	},
 	"author": "",
 	"license": "ISC",

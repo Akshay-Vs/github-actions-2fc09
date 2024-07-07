@@ -40,6 +40,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: packages
-          path: packages/
+          path: dist/
           retention-days: 1
           if-no-files-found: error
