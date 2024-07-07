@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "",
+		"test": "echo test",
 		"build": "node index.js",
 		"release": "pnpm run build && changeset publish"
 	},
